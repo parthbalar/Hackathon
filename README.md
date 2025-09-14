@@ -1,12 +1,39 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# #Hackathon - React Js
 
-Currently, two official plugins are available:
+A clean, responsive single-page website for managing and showcasing an inter-college hackathon — built during our session.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository contains the frontend for the Hackathon site (team registration, about, rules, and other informational pages) and is configured to deploy to GitHub Pages.
 
-## Expanding the ESLint configuration
+# #Project Overview :
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This repo holds the frontend & backend for the Hackathon website — a lightweight React app with simple CSS styling and pages such as:
+
+Home 
+
+About
+
+Team registration form
+
+Rules & Guidelines
+
+It was created as a hackathon/college event site and is easy to extend (add admin/host pages, backend APIs, authentication, etc.).
+
+## Installation
+
+Install Hackathon with npm
+
+```bash
+  git clone https://github.com/parthbalar/Hackathon.git
+
+  // Terminal - 1
+  cd frontend
+  npm install 
+  npm run dev
+
+  //Terminal - 2
+  cd backend
+  npm install 
+  node --watch index.js
+  
+```
